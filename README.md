@@ -3,9 +3,13 @@
 **To re-produce the figures and analyses in Al Aswad et al. (2023), use the files in the following order:**
 
 1."DownloadPbdb.r"
+
 2."Dataprep.r"
+
 3."Hexsim.r"
+
 4."Survival_PT.r"
+
 5."BC.r"
 
 Each file depends on one or more products from the previous files to run properly, so they are not standalone.
