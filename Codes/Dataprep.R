@@ -162,8 +162,7 @@ qq <- q2+coord_map("ortho", orientation = c(-50, 50, 50))+
   theme(axis.text.x=element_blank())+
   theme(axis.text.y=element_blank())+
   theme_light()+
-  labs(title= "600k km cells of genera count",
-       subtitle =  "Changhsingian")
+  labs(title= "Changhsingian Occurrences")
 qq
 ggsave(filename="sphere-changhsingian20-Tethys.pdf", plot=qq, bg='transparent',
        height=6, width=10, units="in", device="pdf", dpi=500)
