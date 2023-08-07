@@ -1,7 +1,5 @@
 # READ ME 
 
-This folder contains the codes and files used for the analyses in the "Changes in marine ecosystems after the end-Permian mass extinction are linked to oceanic habitats," 2023, paper by Al Aswad et al.
-
 To re-produce the figures and analyses in Al Aswad et al. (2023), use the files in the following order:
 
 "DownloadPbdb.r"
