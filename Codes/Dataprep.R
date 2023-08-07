@@ -130,7 +130,6 @@ q  <- ggplot() +
   geom_polygon(data=Induan,      aes(x=long, y=lat, group=group, fill=count), alpha=0.9)    +
   geom_path   (data=Induan,      aes(x=long, y=lat, group=group),  color="black",alpha=0.8) +
   theme(panel.background = element_rect()) +
-  xlim(-300,300)+
   scale_fill_viridis(name = "Number of\nOccurrences",
                      limits = c(20, 150), direction=-1, oob = scales::squish)+
   labs(title = "Induan")+
@@ -145,7 +144,6 @@ q2  <- ggplot() +
   geom_polygon(data=Changhsingian,      aes(x=long, y=lat, group=group, fill=count), alpha=0.9, wrapcells=TRUE)    +
   geom_path   (data=Changhsingian,      aes(x=long, y=lat, group=group),  color="black",alpha=0.8, wrapcells=TRUE) +
   theme(panel.background = element_rect()) +
- # xlim(-300,300)+
   scale_fill_viridis(name = "Number of\nOccurrences",
                      limits = c(20, 150), direction=-1, oob = scales::squish)+
   labs(title = "Changhsingian")+
@@ -165,7 +163,7 @@ qq <- q2+coord_map("ortho", orientation = c(-50, 50, 50))+
   theme(axis.text.y=element_blank())+
   theme_light()+
   labs(title= "600k km cells of genera count",
-       subtitle =  "Induan")
+       subtitle =  "Changhsingian")
 qq
 ggsave(filename="sphere-changhsingian20-Tethys.pdf", plot=qq, bg='transparent',
        height=6, width=10, units="in", device="pdf", dpi=500)
