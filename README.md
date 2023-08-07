@@ -7,6 +7,9 @@ To re-produce the figures and analyses in Al Aswad et al. (2023), use the files 
 "Hexsim.r"
 "Survival_PT.r"
 "BC.r"
+
+Each file depends on one or more products from the previous files to run properly, so they are not standalone.
+
 Certain data files are also available:
 
 The Pbdb data that was downloaded using "DownloadPbdb.r" is available as "pbdb.jul2022.csv".
