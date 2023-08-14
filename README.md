@@ -1,6 +1,6 @@
 # READ ME 
 
-**To re-produce the figures and analyses in Al Aswad et al. (2023), use the files in the following order:**
+**To re-produce the figures and analyses in Al Aswad et al. (in prep), use the files in the following order:**
 
 1."DownloadPbdb.r"
 
