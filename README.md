@@ -16,6 +16,6 @@ Each file depends on one or more products from the previous files to run properl
 
 **Some data files are also available, in case you have any difficulty creating them:**
 
-The hexagonal cells dataframe, data.j, is created with "Dataprep.r "and uses a package ("DggridR") that is not compatible with Macbook M1 or M2 chips. In this case, the file is available here as "data.j.csv"
+The hexagonal cells dataframe, data.j, is created with "Dataprep.r "and uses a package ("DggridR") that is not compatible with Macbook M1 or M2 chips and some of the newer Intel processors. In this case, the file is available here as "data.j.csv". This also applies to "cellcenter.csv".
 
 The "252.scotese_ploygon" shapefiles used in "Dataprep.r" to create the figures is available here as "ma.252.Rda". These shapefiles were created from the Scotese (2016) shapefiles in the GPlates software in 2021.
