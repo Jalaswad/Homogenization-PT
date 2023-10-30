@@ -30,8 +30,8 @@ library(viridis)
 library(png)
 
 
-setwd("/Users/geojood/Desktop/PT/Codes/")
-pbdb <- read.csv(file='~/Desktop/PT/Codes/pbdb.aug2023.csv')
+setwd("")
+pbdb <- read.csv(file='~/Codes/pbdb.aug2023.csv')
 
 
 #adjust radiometric ages
